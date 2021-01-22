@@ -1,7 +1,7 @@
 # Configure the Google Cloud provider
 provider "google" {
   credentials = "${file("service-account.json")}"
-  project = "mihai-281118"
+  project = "mihail"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
