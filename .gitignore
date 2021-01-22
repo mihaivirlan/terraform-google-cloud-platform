@@ -1,4 +1,5 @@
 .terraform
 *.tfstate
 *terraform
+terraform.tfstate.backup
 service-account.json
